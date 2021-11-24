@@ -80,7 +80,7 @@ useful insights. Actually we can answer the first question (what is the best
 time to buy or sell a house) just using these data. Please 
 [check here for details]().
 
-## Ongoing/future plan:
+## Ongoing work/future plan:
 
 Many things could affect the housing price, but for the same housing type,
    it is a common sense that 
