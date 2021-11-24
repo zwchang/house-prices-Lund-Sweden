@@ -26,9 +26,11 @@ overview of the recent Lund housing market, but also answer business-like questi
 
 
 This project is still ongoing.
+
 ## Progress so far:
 ___
-###Web scrapping
+
+### Web scrapping
 
 The first task is to collect data. I used Python and a web scrapping module 
 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to 
