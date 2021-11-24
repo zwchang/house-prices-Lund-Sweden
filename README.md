@@ -74,7 +74,12 @@ These parameters obtained from 2nd layer may be important when we later train
 machine learning 
 algorithms for the prediction of the housing prices. Also, it could answer 
 the second question I brought up in the previous section by evaluating 
-agency/agent's performance. However, even with the 
+agency/agent's performance. 
+
+
+### Data Analysis
+
+Even with the 
 first layer info, we could still do some analysis which give us some pretty 
 useful insights. Actually we can answer the first question (what is the best 
 time to buy or sell a house) just using these data. Please 
