@@ -1,7 +1,7 @@
 # Analysis and prediction of housing prices in Lund, Sweden
 
 ## Project overview
-___
+
 The aim of this project is to provide a thorough analysis and eventually
 build model using machine learning algorithms to predict the housing prices in 
 the city of [Lund](https://en.wikipedia.org/wiki/Lund) where I am currently 
@@ -28,7 +28,6 @@ overview of the recent Lund housing market, but also answer business-like questi
 This project is still ongoing.
 
 ## Progress so far:
-___
 
 ### Web scrapping
 
@@ -82,7 +81,7 @@ time to buy or sell a house) just using these data. Please
 [check here for details]().
 
 ## Ongoing/future plan:
-___
+
 Many things could affect the housing price, but for the same housing type,
    it is a common sense that 
    the location is usually the decisive factor. Nearly all agents I talked to, would repeat "Location! Location!
