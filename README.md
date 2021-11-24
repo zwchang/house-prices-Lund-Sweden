@@ -81,7 +81,7 @@ agency/agent's performance.
 
 Even with the 
 first layer info, we could still do some analysis which give us some pretty 
-useful insights. Actually we can answer the first question (what is the best 
+useful insights. Actually we can answer the first question (when is the best 
 time to buy or sell a house) just using these data. Please 
 [check here for details]().
 
