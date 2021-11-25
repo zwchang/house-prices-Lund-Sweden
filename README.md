@@ -104,7 +104,9 @@ K-means could divide Lund into several regions where each of them could be
 analyzed separately. Then for an apartment with given location, we first 
 identify which region it belongs and then adding features listed in the 
 previous section (maybe try multiple linear regression and random forest). 
-Such model should give us a reasonable estimate of the price.  
+Such model should give us a reasonable estimate of the price. In addition, it
+might be necessary to do a time series analysis to predict the price oscillation
+within a short time window. 
 
 
 
