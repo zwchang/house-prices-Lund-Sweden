@@ -100,7 +100,9 @@ Many things could affect the housing price, but for the same housing type,
 To avoid such mistake, I am going to convert the addresses to the lan and 
 longitude, and then use a Google map API to plot a 2D heat map showing the price
 distribution. Based on such distribution, I am expecting a clustering algorithm 
-like K-means could divide Lund into several regions where each of them could be 
+like K-means could divide Lund into several regions based on price per 
+square meters where 
+each of them could be 
 analyzed separately. Then for an apartment with given location, we first 
 identify which region it belongs and then adding features listed in the 
 previous section (maybe try multiple linear regression and random forest). 
