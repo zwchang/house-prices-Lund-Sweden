@@ -2,12 +2,15 @@
 
 ## Project overview
 
-Nearly everyone cares about their housing. As the Wall Street legend 
+>Nearly everyone cares about their housing. As the Wall Street legend 
 Peter Lynch wrote in his book "Before you do invest anything in stocks, you 
 ought to consider buying a house, since a house, after all, is the one good 
-investment that almost everyone manages to make". Many people have 
-made sizable profit in the transition from small apartment to a larger one 
-and eventually to a house.
+investment that almost everyone manages to make". He also described the 
+customary progression of houses as follows: "You buy a small house (a 
+starter house), then a medium-sized house, then a larger house that 
+eventually you don't need. After the children have moved away, then you sell 
+the big house and revert to a smaller house, making a sizable profit in the 
+transition".
 
 The aim of this project is to provide a thorough analysis and eventually
 build model using machine learning algorithms to predict the housing prices in 
