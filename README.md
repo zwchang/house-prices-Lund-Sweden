@@ -50,8 +50,12 @@ first layer provides following items:
 * individual link
 * sold price
 
-[Here is the example]() of how we can scrap the first layer info. Then we 
-can use [this script]() to generate a csv file for all 2500 items.  
+[Here is the example](/house-prices-Lund-Sweden/hemnet_page50.ipynb) of how we 
+can scrap the first 
+layer 
+info. Then we 
+can use [this script](/house-prices-Lund-Sweden/hemnet_csv.ipynb) to generate 
+a csv file for all 2500 items.  
 
 With the individual link provided for each sold property, we 
 are able to click in and find the info contained in the second layer such as:
