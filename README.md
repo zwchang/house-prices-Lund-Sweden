@@ -2,17 +2,17 @@
 
 ## Project overview
 
-The aim of this project is to provide a thorough analysis and eventually
-build model using machine learning algorithms to predict the housing prices in 
-the city of [Lund](https://en.wikipedia.org/wiki/Lund) where I am currently 
-living. 
-
 Nearly everyone cares about their housing. As the Wall Street legend 
 Peter Lynch wrote in his book "Before you do invest anything in stocks, you 
 ought to consider buying a house, since a house, after all, is the one good 
-investment that almost everyone manages to make". I know many people who 
+investment that almost everyone manages to make". Many people have 
 made sizable profit in the transition from small apartment to a larger one 
-and eventually to a house. I hope this project could not only provide a general 
+and eventually to a house.
+
+The aim of this project is to provide a thorough analysis and eventually
+build model using machine learning algorithms to predict the housing prices in 
+the city of [Lund](https://en.wikipedia.org/wiki/Lund) where I am currently 
+living. I hope this project could not only provide a general 
 overview of the recent Lund housing market, but also answer business-like questions for the potential housing buyers/sellers like:
 
 * When is the best time to sell/buy an apartment/house?
