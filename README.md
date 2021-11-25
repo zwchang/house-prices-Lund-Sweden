@@ -70,7 +70,8 @@ If the property is apartment, it also provides additional info:
 
 Out of 2500 sold properties 1972 of them are apartment, so we first 
 focus on this category and later we can do similar analysis to houses. 
-[Here is the example]() of how to extract the second layer info. 
+[Here is the example](hemnet_2nd_layer_test.ipynb) of how to extract the second 
+layer info. 
 It is fairly straightforward to generalize this code to all 2500 items which I 
 am currently working on.
 
