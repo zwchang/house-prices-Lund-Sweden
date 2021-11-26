@@ -95,7 +95,7 @@ time to buy or sell a house) just using these data. Please
 
 ## Ongoing work/future plan:
 
-Many things could affect the housing price, but for the same housing type,
+>Many things could affect the housing price, but for the same housing type,
    it is a common sense that 
    the location is usually the decisive factor. Nearly all agents I talked to, would repeat "Location! Location!
     Location is everything!" There are many housing data sets hosted on 
@@ -105,18 +105,22 @@ Many things could affect the housing price, but for the same housing type,
    quality of the building, living area size, etc. But some show that whether 
    there is a full bath could also be decisive. A full bath? Really? 
    
-To avoid such mistake, I am going to convert the addresses to the lan and 
-longitude, and then use a Google map API to plot a 2D heat map showing the price
-distribution. Based on such distribution, I am expecting a clustering algorithm 
+* Scrap 2nd-layer data from the individual links and add them to the csv file.
+
+* Convert the addresses to the lan and longitude, and then use a Google map 
+  API to plot a 2D heat map showing the price distribution. 
+  
+* Based on such distribution, I am expecting a clustering algorithm 
 like K-means could divide Lund into several regions based on price per 
-square meters where 
-each of them could be 
-analyzed separately. Then for an apartment with given location, we first 
-identify which region it belongs and then adding features listed in the 
-previous section (maybe try multiple linear regression and random forest). 
-Such model should give us a reasonable estimate of the price. In addition, it
-might be necessary to do a time series analysis to predict the price oscillation
-within a short time window. 
+square meters which could be a very useful feature in model training. 
+  
+* Split data into train and test sets with a test size of 20%.
+  
+* Train different models e.g., multiple linear regression, random 
+  forest, etc. and evaluate performances.
+  
+* It might be useful to do a time series analysis to predict the price 
+oscillation within a short time window. 
 
 
 
