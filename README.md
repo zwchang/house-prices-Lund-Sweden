@@ -121,6 +121,9 @@ square meters which could be a very useful feature in model training.
   
 * It might be useful to do a time series analysis to predict the price 
 oscillation within a short time window. 
+  
+* Build an API endpoint which is able to take in a request with a list of 
+  values from a property listing and returns an estimated price.
 
 
 
