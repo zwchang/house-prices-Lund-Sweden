@@ -123,7 +123,7 @@ square meters which could be a very useful feature in model training.
 oscillation within a short time window. 
   
 * Build an API endpoint which is able to take in a request with a list of 
-  values from a property listing and returns an estimated price.
+  values from a property listing and return an estimated price.
 
 
 
