@@ -72,7 +72,7 @@ Then it is fairly straightforward to generalize this code to all 1972 items usin
 ### Data Analysis
 
 Using the data we collected, we are able to do some analysis which give us a general picture of the Lund apartment sales. Actually we can answer the first and second question we brought up in previous section using these data. Please 
-[check here for details](Lund_apartment_analysis_211206.pdf).
+[check here for details](Lund_apartment_analysis_211208.pdf).
 
 ## Ongoing work/future plan:
 
