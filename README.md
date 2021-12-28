@@ -102,7 +102,7 @@ is renovated and the hotness of the current housing market.
 I also listed the asking, final sold prices as well as our model prediction using random forest algorithm for the six randomly picked apartments sold recently. Our model
 perform pretty well especially when the price is not too high. See [here](/notebooks/hemnet_model_pre.ipynb) for details. [Here](predict.py) is the Python code I used for the prediction.  
 
-[Here](/notebooks/Lund_apartment_sales_211228.pdf) is the summary notes for the work I've done so far.
+[Here](Lund_apartment_sales_211228.pdf) is the summary notes for the work I've done so far.
 
 ## Ongoing work/future plan:
 
