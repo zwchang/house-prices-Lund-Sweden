@@ -17,12 +17,7 @@ overview of the recent Lund housing market, but also answer business-like questi
   location, living area size, number of rooms, floor number, year of build, 
   etc.?
 
-This project is still ongoing. The majority work has been done. Currently I am building
-a website to deploy the trained model, and I expect the final product would be a website with
-API endpoint where you provide the relevant features of a property (e.g. address, size, build
-year, number of rooms, etc.) or even just a simple Hemnet link to the listing, then with one
-click, it shows the estimated price. The model should be continuously refined and validated by
-taking streaming data from Hemnet (using MLOps) as the new listings keep coming in.
+The majority work of this project has been done. 
 
 ## Progress so far:
 
@@ -106,22 +101,12 @@ perform pretty well especially when the price is not too high. See [here](/noteb
 
 ## Ongoing work/future plan:
 
-* Convert the addresses to the lan and longitude, and then use a Google map 
-  API to plot a 2D heat map showing the price distribution. 
-  
-* Based on such distribution, I am expecting a clustering algorithm 
-like K-means could divide Lund into several regions based on price per 
-square meters which could be a very useful feature in model training. 
-  
-* Split data into train and test sets.
-  
-* Train different models e.g., multiple linear regression, random 
-  forest, etc. and evaluate performances.
-  
-* It might be useful to do a time series analysis to predict the price 
-oscillation within a short time window. 
-  
-* Build an API endpoint which is able to take in a request with a list of values from a property listing and return an estimated price.
+Currently I am building
+a website to deploy the trained model, and I expect the final product would be a website with
+API endpoint where you provide the relevant features of a property (e.g. address, size, build
+year, number of rooms, etc.) or even just a simple Hemnet link to the listing, then with one
+click, it shows the estimated price. The model should be continuously refined and validated by
+taking streaming data from Hemnet (using MLOps) as the new listings keep coming in.
 
 
 
