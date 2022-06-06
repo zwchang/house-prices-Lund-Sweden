@@ -42,7 +42,7 @@ first layer provides following items:
 * individual link
 * sold price
 
-[Here is the example](/code/hemnet_1st_layer_test.ipynb) of how we 
+[Here is the example](/code/hemnet_1stLayerInfo_demo.ipynb) of how we 
 can scrap the first 
 layer 
 info. Then we 
@@ -62,7 +62,7 @@ If the property is apartment, it also provides additional info:
 
 Out of 2500 sold properties 1972 of them are apartment, so we first 
 focus on this category and later we can do similar analysis to houses. 
-[Here is the example](/code/hemnet_2nd_layer_test.ipynb) of how to extract the second 
+[Here is the example](/code/hemnet_2ndLayerInfo_demo.ipynb) of how to extract the second 
 layer info. 
 Then it is fairly straightforward to generalize this code to all 1972 items using [this script](/code/hemnet_2ndlayerinfo.py).
 
