@@ -74,7 +74,7 @@ Using the data we collected, we are able to do some analysis which give us a gen
 
 ### Model prediction
 
-We first put all info from first and second layer together and merge them into a CSV file (check [here](/code/hemnet_dataCleaning.ipynb) for details). Then we can convert the addresses to the lan and longitude, and then use a Google map API to plot a 2D heat map showing the price distribution (check [here](/code/Hemnet_map.ipynb)). Then we can do some feature engineering by dealing with missing data, outliers, and data transformation. 
+We first put all info from first and second layer together and merge them into a CSV file (check [here](/code/hemnet_dataWrangling.ipynb) for details). Then we can convert the addresses to the lan and longitude, and then use a Google map API to plot a 2D heat map showing the price distribution (check [here](/code/Hemnet_map.ipynb)). Then we can do some feature engineering by dealing with missing data, outliers, and data transformation. 
 
 For the model training part, We first split the data into train (70%) and
 test (30%) sets, then we test three commonly used ensemble algorithms: gradient boosting, xgboost, and random forest. For all three models trained with including all numerical features, we are able to slightly outperform the brokers’ evaluation from comparing with the asking price MAE. xgboost and
